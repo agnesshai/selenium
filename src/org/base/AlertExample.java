@@ -20,7 +20,9 @@ public class AlertExample {
 		Thread.sleep(3000);
 		alert.accept();
 
+		
 		// confirm box
+		
 		WebElement alertBox2 = driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/div/button"));
 		alertBox2.click();
 		Alert alert1 = driver.switchTo().alert();
